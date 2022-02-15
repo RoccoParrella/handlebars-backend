@@ -1,0 +1,29 @@
+<div class="contenedor">
+                <div>
+                    <p class="title">Agregue una pelicula o serie</p>
+                </div>
+                <form action="/add" enctype="multipart/form-data" method="post">
+                    <div class="form-label">
+                        <label for="titulo">Titulo </label>
+                        <input name="titulo">
+                    </div>
+                    <div class="form-label">
+                        <label for="tipo">Tipo </label>
+                        <select name="tipo">
+                            <option value="peliculas">Pelicula</option>
+                            <option value="series">Serie</option>
+                        </select>
+                    </div>
+                    <div class="form-label" >
+                        <label for="duracion">Duracion </label>
+                        <input name="duracion">
+                    </div>
+                    <div class="form-label">
+                        <label for="img">Imagen(URL) </label>
+                        <input name="img">
+                    </div>
+                    <div>
+                        <button class="boton" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>

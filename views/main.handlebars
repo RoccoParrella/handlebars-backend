@@ -1,0 +1,31 @@
+<div class="contenedor">
+    <p class="title">Bienvenido a <span>NETFLIX</span></p>
+</div>
+<div class="contenedor-peliculas">
+    <h2 class="h2-peliculas">PELICULAS</h2>
+    <ul class="ul-peliculas">
+        {{#each peliculas}}
+            <li class="li-peliculas"><img class="foto-peliculas" src="{{urlImg}}">
+                <p class="p-peliculas">
+                    {{title}}
+                </p>
+                <p class="p-duration">
+                    {{duration}}
+                </p>
+            </li>
+        {{/each}}
+    </ul>
+    <h2 class="h2-peliculas">Series</h2>
+    <ul class="ul-peliculas">
+        {{#each series}}
+            <li class="li-peliculas"><img class="foto-peliculas" src="{{urlImg}}">
+                <p class="p-peliculas">
+                    {{title}}
+                </p>
+                <p class="p-duration">
+                    {{duration}}
+                </p>
+            </li>
+        {{/each}}
+    </ul>
+</div>

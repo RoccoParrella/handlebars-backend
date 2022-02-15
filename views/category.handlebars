@@ -1,0 +1,17 @@
+<div class="contenedor-peliculas">
+    <h2 class="h2-peliculas">
+        {{pelicula}}
+    </h2>
+    <ul class="ul-peliculas">
+        {{#each peliculas}}
+            <li class="li-peliculas"><img class="foto-peliculas" src="{{urlImg}}">
+                <p class="p-peliculas">
+                    {{title}}
+                </p>
+                <p class="p-duration">
+                    {{duration}}
+                </p>
+            </li>
+        {{/each}}
+    </ul>
+</div>

@@ -1,4 +1,3 @@
-module.exports = function (app, motor) {
-    app.set('views', `./views/${motor}`);
-    app.set('view engine', `${motor}`);
+module.exports = function (app) {
+    app.set("view engine", "handlebars");
 }
