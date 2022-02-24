@@ -31,6 +31,7 @@ router.get(`/buscar`, (req, res) => {
 router.get('/add', (req, res) => {
     res.status(200).render('form', {layout: 'index'});
 })
+
 router.get('/result', (req, res) => {
     const pelicula = req.query.movie;
     res.status(200).render('result', { layout:'index', pelicula:pelicula });
@@ -38,7 +39,7 @@ router.get('/result', (req, res) => {
 
 router.post('/add', upload.array('img', 2), (req, res) => {
     newProduct.save({ title: req.body.titulo, tipo: req.body.tipo, duration: req.body.duracion, urlImg: req.body.img });
-    res.status(201).redirect(`/result?movie=${req.body.titulo}`);
+    res.status(201)
 })
 
 module.exports = router;

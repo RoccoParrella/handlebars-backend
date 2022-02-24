@@ -10,22 +10,24 @@ class Contenedor {
             if(this.arrayLenght() == 0) {
                 let array = [];
                 obj.id = 1;
-                console.log(`A la ${obj.title} se le asocio el id N${obj.id}`);
                 array.push(obj);
                 fs.writeFileSync(this.filePath, JSON.stringify(array, null, 2));
             } else {
                 let data = fs.readFileSync(this.filePath, 'utf8')
                 let array = JSON.parse(data);
                 let newId = array.length + 1;
-                !obj.id ? obj.id = newId : null
-                console.log(`A la ${obj.title} se le asocio el id N${obj.id}`)
-                let arrayOrdenado = array.sort(function(a, b) { return a.id-b.id });
-                arrayOrdenado.push(obj);
+                console.log(newId)
+                obj.id = newId;
+                array.push(obj);
                 fs.writeFileSync(this.filePath, JSON.stringify(array, null, 2));
             }
         } catch (err) {
             throw err;
         }
+    }
+
+    saveMsg(obj) {
+        fs.writeFileSync(this.filePath, JSON.stringify(obj, null, 2));
     }
 
     arrayLenght() {

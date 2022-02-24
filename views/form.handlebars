@@ -1,29 +1,70 @@
-<div class="contenedor">
-                <div>
-                    <p class="title">Agregue una pelicula o serie</p>
-                </div>
-                <form action="/add" enctype="multipart/form-data" method="post">
-                    <div class="form-label">
-                        <label for="titulo">Titulo </label>
-                        <input name="titulo">
-                    </div>
-                    <div class="form-label">
-                        <label for="tipo">Tipo </label>
-                        <select name="tipo">
-                            <option value="peliculas">Pelicula</option>
-                            <option value="series">Serie</option>
-                        </select>
-                    </div>
-                    <div class="form-label" >
-                        <label for="duracion">Duracion </label>
-                        <input name="duracion">
-                    </div>
-                    <div class="form-label">
-                        <label for="img">Imagen(URL) </label>
-                        <input name="img">
-                    </div>
-                    <div>
-                        <button class="boton" type="submit">Enviar</button>
-                    </div>
-                </form>
+<div class="main-form">
+    <div class="contenedor margin-top">
+        <div>
+            <p class="title">Agregue una pelicula o serie</p>
+        </div>
+        <form action="/add" enctype="multipart/form-data" method="post">
+            <div class="form-label">
+                <label for="titulo">Titulo </label>
+                <input id="titulo" name="titulo">
             </div>
+            <div class="form-label">
+                <label for="tipo">Tipo </label>
+                <select id="tipo" name="tipo">
+                    <option value="peliculas">Pelicula</option>
+                    <option value="series">Serie</option>
+                </select>
+            </div>
+            <div class="form-label">
+                <label for="duracion">Duracion </label>
+                <input id="duracion" name="duracion">
+            </div>
+            <div class="form-label">
+                <label for="img">Imagen(URL) </label>
+                <input id="img" name="img">
+            </div>
+            <div>
+                <button id="enviar-pelis" class="boton" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div class="contenedor margin-top">
+        <h2 class="title">Lista de contenido</h2>
+        <div class="linea"></div>
+        <h2 class="h2 title" id="nadaPelis">NO HAY PELICULAS</h2>
+        <div class="d-flex justify-content-around" id="a">
+            <p class="pelicula-t hidden" id="hidden-uno">Titulo</p>
+            <p class="pelicula-d hidden" id="hidden-dos">Duracion</p>
+            <p class="pelicula-m hidden" id="hidden-tres">Miniatura</p>
+        </div>
+        <div class="peliculas-div" id="divPelis">
+
+        </div>
+        <div class="linea"></div>
+    </div>
+    <div class="contenedor margin-top">
+        <h2 class="title">Centro de mensajes</h2>
+        <div class="linea"></div>
+        <h2 class="h2 title" id="nada">NO HAY MENSAJES</h2>
+        <div class="mensajes" id="divMensajes">
+            
+        </div>
+        <div class="linea"></div>
+        <form class="form-emails">
+            <div class="form-div">
+                <div class="form-label">
+                    <input class="input-emails" id="email" name="autor" class="mensaje-email" placeholder="Ingrese su email">
+                </div>
+                <div class="form-label">
+                    <input class="input-emails" id="mensaje" name="mensaje" placeholder="Ingrese un mensaje">
+                </div>
+            </div>
+            <div>
+                <button id="boton-mail" class="boton" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/js/index.js"></script>

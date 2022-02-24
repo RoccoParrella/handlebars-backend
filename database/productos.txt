@@ -81,118 +81,118 @@
     "tipo": "peliculas",
     "duration": "2:49",
     "urlImg": "https://statics-uestudio.uecdn.es/buhomag/2019/08/Marvel-peor-reparto-posible.jpg",
-    "id": 13
+    "id": 12
   },
   {
     "title": "Spiderman",
     "tipo": "peliculas",
     "duration": "2:59",
     "urlImg": "https://i2.wp.com/codigoespagueti.com/wp-content/uploads/2021/11/Spider-Man-No-Way-Home.jpg?fit=1280%2C720&quality=80&ssl=1",
-    "id": 14
+    "id": 13
   },
   {
     "title": "La leyenda",
     "tipo": "peliculas",
     "duration": "1:29",
     "urlImg": "https://clips-media-assets2.twitch.tv/40332031645-offset-2484-preview-260x147.jpg",
-    "id": 15
+    "id": 14
   },
   {
     "title": "El marginal",
     "tipo": "series",
     "duration": "1:30",
     "urlImg": "https://media.airedesantafe.com.ar/p/1f866f1c88149e7e05561fd88c7ae381/adjuntos/268/imagenes/003/361/0003361749/el-marginal-4-como-ver-online.png",
-    "id": 16
+    "id": 15
   },
   {
     "title": "La casa de papel",
     "tipo": "series",
     "duration": "2:42",
     "urlImg": "https://estaticos-cdn.elperiodico.com/clip/3605f2aa-d2da-466d-9fe1-166964630fe5_alta-libre-aspect-ratio_default_0.jpg",
-    "id": 17
+    "id": 16
   },
   {
     "title": "Lost",
     "tipo": "series",
     "duration": "2:38",
     "urlImg": "https://elcomercio.pe/resizer/6YPZDSIpGSnolNZZBNDPqCRtw6A=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/TVGYQTFW55CXBAPA6VNLMDJHAU.jpg",
-    "id": 18
+    "id": 17
   },
   {
     "title": "Friends",
     "tipo": "series",
     "duration": "2:29",
     "urlImg": "https://images.mediotiempo.com/hrm9IC552FaAV6dL9txLbAzyOYE=/958x596/uploads/media/2019/07/10/a-partid-de-formara-parte.jpg",
-    "id": 19
+    "id": 18
   },
   {
     "title": "You",
     "tipo": "series",
     "duration": "1:59",
     "urlImg": "https://cloudfront-us-east-1.images.arcpublishing.com/elcomercio/M3THBLYANBHZXNIUMIXEADWFUA.jpg",
-    "id": 20
+    "id": 19
   },
   {
     "title": "El juego del calamar",
     "tipo": "series",
     "duration": "2:53",
     "urlImg": "https://faros.hsjdbcn.org/sites/default/files/styles/shareimg/public/netflix-el-juego-calamar-min.jpg?itok=wcffm0Xz",
-    "id": 21
+    "id": 20
   },
   {
     "title": "Euphoria",
     "tipo": "series",
     "duration": "2:49",
     "urlImg": "https://i.blogs.es/b613e8/euphoria-hbo-serie-posible-final-1564656781/1366_2000.jpeg",
-    "id": 22
+    "id": 21
   },
   {
     "title": "The walking dead",
     "tipo": "series",
     "duration": "2:40",
     "urlImg": "https://netflixyseries.com/wp-content/uploads/2022/02/blob_n2d9.1280.jpg",
-    "id": 23
+    "id": 22
   },
   {
     "title": "Lost in space",
     "tipo": "series",
     "duration": "2:30",
     "urlImg": "https://areajugones.sport.es/wp-content/uploads/2020/03/perdidos-en-el-espacio.jpg",
-    "id": 24
+    "id": 23
   },
   {
     "title": "Maradona",
     "tipo": "series",
     "duration": "2:37",
     "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTodSKDMcHt9kESOodgrSInvKGYvy8V_kG7lfT0bczUU7VWZKAWg4aBnKsD2ap632ib-mI&usqp=CAU",
-    "id": 25
+    "id": 24
   },
   {
     "title": "Elite",
     "tipo": "series",
     "duration": "2:29",
     "urlImg": "https://img2.rtve.es/i/?w=1600&i=1618240780378.jpg",
-    "id": 26
+    "id": 25
   },
   {
     "title": "Las chicas del cable",
     "tipo": "series",
     "duration": "1:28",
     "urlImg": "https://www.cinemascomics.com/wp-content/uploads/2020/02/las-chicas-del-cable-entrevista-temporada-5.jpg",
-    "id": 27
+    "id": 26
   },
   {
     "title": "Drive to survive",
     "tipo": "series",
     "duration": "2:39",
     "urlImg": "https://img.redbull.com/images/c_crop,w_3200,h_1600,x_0,y_452,f_auto,q_auto/c_scale,w_1200/redbullcom/2017/06/23/1478ebff-ab86-4a4a-ba39-855e30d227f7/daniel-ricciardo-en-el-gp-de-canad%C3%A1-2017.jpg",
-    "id": 28
+    "id": 27
   },
   {
     "title": "El desempleado",
     "tipo": "peliculas",
     "duration": "2:30",
     "urlImg": "https://pbs.twimg.com/media/EwZLYMPXAAAmM5H?format=jpg&name=medium",
-    "id": 29
+    "id": 28
   }
 ]
